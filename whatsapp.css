@@ -1,10 +1,15 @@
 .frame{
     background-color: black;
     width: 432px;
-    height: 963.2px;
+    height: 663.2px;
     margin: auto;
     border-radius: 30px;
+    padding: 35px 0px 0px 0px;
 }
 .body{
-    
+    margin: auto;
+    width: 412px;
+    height: 643.2px;
+    border-radius: 30px;
+    background-color: rgb(32,44,51);
 }
