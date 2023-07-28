@@ -83,8 +83,17 @@ span{
     background-color: #00AB83;
     border-radius: 10px; 
 }
-.statcon{
+.statcon, .callcon{
     display: none;
+}
+.ch:focus-within .chatcon{
+    display: block;
+}
+.stat:focus-within .statcon{
+    display: block;
+}
+.cal:focus-within .callcon{
+    display: block;
 }
 .luf{
     background-color: #121b22;
@@ -100,6 +109,9 @@ span{
 }
 .thr{
     margin-left: 165px;
+}
+.lu{
+    margin-left: 55px;
 }
 .tw{
     display: flex;
