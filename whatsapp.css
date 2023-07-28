@@ -17,16 +17,18 @@ body{
     margin: auto;
     margin-bottom: 10px;
 }
-.icon{
+.icon, .top{
     margin: auto;
     width: 412px;
-    height: 20px;
-    border-radius: 30px 30px 0px 0px;
-    background-color: rgb(32,44,51);
+    background-color: #1F2C34;
     padding: 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.icon{
+    border-radius: 30px 30px 0px 0px;
+    height: 20px;
 }
 .ic{
     width: 20px;
@@ -35,5 +37,8 @@ body{
     color: white;
 }
 #top{
-    color: rgb(174,186,193);
+    color: #8899A3;
+}
+.csi{
+    height: 20px;
 }
