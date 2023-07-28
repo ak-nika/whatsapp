@@ -66,7 +66,7 @@ span{
 .csi, .comm{
     height: 20px;
 }
-.chatcon, .statcon{
+.chatcon, .statcon, .callcon{
     position: absolute;
     right: 417.5px;
     top: 165px;
@@ -77,7 +77,7 @@ span{
     border-radius: 0px 0px 20px 20px;
     background-color: #121b22;
 }
-.chatcon::-webkit-scrollbar{
+.chatcon::-webkit-scrollbar, .statcon::-webkit-scrollbar, .callcon::-webkit-scrollbar{
     width: 10px;
     height: 5px;        
     background-color: #00AB83;
@@ -95,8 +95,18 @@ span{
     gap: 10px;
     padding-top: 10px;
 }
-.three{
-    margin-left: 10px;
+.thre{
+    margin-left: 180px;
+}
+.thr{
+    margin-left: 165px;
+}
+.tw{
+    display: flex;
+    align-items: center;
+}
+.on{
+    display: block;
 }
 .dp{
     width: 50px;
@@ -124,4 +134,7 @@ span{
     color: #8899A3;
     margin-left: 10px;
     font-weight: 600;
+}
+.callty, .sor{
+    width: 20px;
 }
