@@ -1,7 +1,10 @@
+body{
+    font-family: sans-serif;
+}
 .frame{
     background-color: black;
-    width: 432px;
-    height: 683.2px;
+    width: 440px;
+    height: 695.2px;
     margin: auto;
     border-radius: 30px;
     padding: 10px 0px 0px 0px;
@@ -20,4 +23,11 @@
     height: 643.2px;
     border-radius: 30px;
     background-color: rgb(32,44,51);
+    padding: 8px;
+}
+.time{
+    color: white;
+}
+#top{
+    color: rgb(174,186,193);
 }
