@@ -1,8 +1,9 @@
 body{
     font-family: sans-serif;
+    background-color: black;
 }
 .frame{
-    background-color: whitesmoke;
+    background-color: gainsboro;
     width: 440px;
     height: 695.2px;
     margin: auto;
@@ -16,8 +17,11 @@ body{
     text-align: center;
     width: 100px;
 }
-.chat{
+.chat, .stat{
     position: relative;
+}
+.st:focus-within .statcon{
+    display: block;
 }
 .chat:focus-within, .stat:focus-within, .calls:focus-within{
     color: #00AB83;
@@ -62,7 +66,7 @@ span{
 .csi, .comm{
     height: 20px;
 }
-.chatcon{
+.chatcon, .statcon{
     position: absolute;
     right: 417.5px;
     top: 165px;
@@ -78,6 +82,9 @@ span{
     height: 5px;        
     background-color: #00AB83;
     border-radius: 10px; 
+}
+.statcon{
+    display: none;
 }
 .luf{
     background-color: #121b22;
@@ -99,6 +106,12 @@ span{
 #dp{
     border: 3px solid #00AB83;
 }
+#dps{
+    border: 3px dashed #00AB83;
+}
+#dpse{
+    border: 3px dashed gray;
+}
 .lt{
     font-size: 10px;
     text-align: center;
@@ -106,4 +119,9 @@ span{
 }
 .ltc{
     color: #14A486;
+}
+.cc{
+    color: #8899A3;
+    margin-left: 10px;
+    font-weight: 600;
 }
