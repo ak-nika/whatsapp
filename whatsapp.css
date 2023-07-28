@@ -2,7 +2,7 @@ body{
     font-family: sans-serif;
 }
 .frame{
-    background-color: black;
+    background-color: whitesmoke;
     width: 440px;
     height: 695.2px;
     margin: auto;
@@ -16,6 +16,10 @@ body{
     text-align: center;
     width: 100px;
 }
+.chat{
+    position: relative;
+    background-color: chartreuse;
+}
 .chat:focus-within, .stat:focus-within, .calls:focus-within{
     color: #00AB83;
     text-decoration: underline;
@@ -24,12 +28,12 @@ body{
 .cam{
     width: 20px;
     height: 20px;
-    background-color: aliceblue;
+    background-color: gray;
     border-radius: 100%;
     margin: auto;
     margin-bottom: 10px;
 }
-.icon, .top, .dp{
+.icon, .top, .dpn{
     margin: auto;
     width: 412px;
     background-color: #1F2C34;
@@ -48,9 +52,40 @@ body{
 .time{
     color: white;
 }
-#top{
+span{
     color: #8899A3;
+}
+.pn{
+    color: white;
+    font-size: 20px;
+    margin: 0px 0px 10px 0px;
 }
 .csi, .comm{
     height: 20px;
+}
+.chatcon{
+    flex-wrap: wrap;
+}
+.luf{
+    background-color: #121b22;
+    width: 428px;
+    height: 76px;
+    position: absolute;
+    right: 417.5px;
+    top: 165px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+.three{
+    margin: 0px 0px 40px 50px;
+}
+.dp{
+    width: 50px;
+    border-radius: 100%;
+    padding: 3px;
+}
+#dp{
+    border: 3px solid #00AB83;
 }
