@@ -1,6 +1,6 @@
 body{
     font-family: sans-serif;
-    background-color: black;
+    background-color: darkblue;
 }
 .frame{
     background-color: gainsboro;
@@ -17,13 +17,13 @@ body{
     text-align: center;
     width: 100px;
 }
-.chat, .stat{
+.chat, .stat, .calls, .pp{
     position: relative;
 }
 .st:focus-within .statcon{
     display: block;
 }
-.chat:focus-within, .stat:focus-within, .calls:focus-within{
+.chat:focus-within, .stat:focus-within, .calls:focus-within, .pp:focus-within{
     color: #00AB83;
     text-decoration: underline;
     width: 100px;
@@ -76,16 +76,17 @@ span{
     overflow-y: scroll;
     border-radius: 0px 0px 20px 20px;
     background-color: #121b22;
-}
-.chatcon::-webkit-scrollbar, .statcon::-webkit-scrollbar, .callcon::-webkit-scrollbar{
-    width: 10px;
-    height: 5px;        
-    background-color: #00AB83;
-    border-radius: 10px; 
-}
-.statcon, .callcon, .comcon{
     display: none;
 }
+.chatcon::-webkit-scrollbar, .statcon::-webkit-scrollbar, .callcon::-webkit-scrollbar, .comcon::-webkit-scrollbar{
+    width: 10px;
+    height: 5px;        
+    background-color: transparent;
+    border-radius: 10px; 
+}
+/* .statcon, .callcon, .comcon{
+    display: none;
+} */
 .ch:focus-within .chatcon{
     display: block;
 }
@@ -179,4 +180,13 @@ span{
 }
 .callty, .sor{
     width: 20px;
+}
+.load{
+    display: flex;
+    justify-content: center;
+}
+.screen{
+    width: 428px;
+    height: 540px;
+    border-radius: 0px 0px 30px 30px;
 }
