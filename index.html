@@ -1,296 +1,592 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WhatsApp</title>
-    <link rel="stylesheet" href="whatsapp.css">
-</head>
-<body>
+    <link rel="stylesheet" href="whatsapp.css" />
+  </head>
+
+  <body>
     <section class="frame">
-        <div class="cam"></div>
-        <div class="icon">
-            <div class="ss">
-                <div class="time">15:59</div>
-            </div>
-            <div class="icons">
-                <img src="wifi.png" alt="" class="ic">
-                <img src="network.png" alt="" class="ic">
-                <img src="battery.png" alt="" class="ic">
-            </div>
+      <div class="cam"></div>
+      <div class="icon">
+        <div class="ss">
+          <div class="time">15:59</div>
         </div>
-       <div class="top">
-         <div><span id="top">WhatsApp</span></div>
-         <div><img src="csi.jpg" alt="" class="csi"></div>
-       </div>
-       <div class="dpn">
-            <div class="com">
-                <button class="pp">
-                    <img src="community.png" alt="" class="comm"></button>
-            <div class="comcon">
-                <div class="luf">
-                    <header class="one"><img src="comm.jpg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">New community</p></header>
-                </div>
+        <div class="icons">
+          <img src="./images/wifi.png" alt="" class="ic" />
+          <img src="./images/network.png" alt="" class="ic" />
+          <img src="./images/battery.png" alt="" class="ic" />
+        </div>
+      </div>
+      <div class="top">
+        <div><span id="top">WhatsApp</span></div>
+        <div><img src="./images/csi.jpg" alt="" class="csi" /></div>
+      </div>
+      <div class="dpn">
+        <div class="com">
+          <button class="pp">
+            <img src="./images/community.png" alt="" class="comm" />
+          </button>
+          <div class="comcon">
+            <div class="luf">
+              <header class="one">
+                <img src="./images/comm.jpg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">New community</p>
+              </header>
             </div>
-             </div>
+          </div>
+        </div>
         <div class="ch">
-            <button class="chat">Chats</button>
-            <div class="chatcon">
-                <div class="luf">
-                    <header class="one"><img src="luffy.jpg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">Luffy</p><span>I'm gonna become the pirate king</span></header>
-                    <header class="lu"><span>16:10</span></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="ussop.jpeg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">Ussop</p><span>Have you seen Zoro?</span></header>
-                    <header class="us"><span>16:00</span></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="zoro.jpeg" alt="" class="dp" id="dp"></header>
-                    <header class="two"><p class="pn">Zoro</p><span>I think I'm lost...</span></header>
-                    <header class="zo"><span>15:59</span></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="nami.webp" alt="" class="dp" id="dp"></header>
-                    <header class="two"><p class="pn">Nami</p><span>Can I borrow some money??</span></header>
-                    <header class="na"><span>15:50</span></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="goku.jpeg" alt="" class="dp" id="dp"></header>
-                    <header class="two"><p class="pn">Goku</p><span>Wanna train?</span></header>
-                    <header class="gok"><span>15:47</span></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="gojo.jpeg" alt="" class="dp" id="dp"></header>
-                    <header class="two"><p class="pn">Gojo</p><span>Yo wai mo :)</span></header>
-                    <header class="goj"><span>15:32</span></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="sanji.jpeg" alt="" class="dp" id="dp"></header>
-                    <header class="two"><p class="pn">Sanji</p><span>Who ate all the food?</span></header>
-                    <header class="sa"><span>15:10</span></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="ai.jpeg" alt="" class="dp" id="dp"></header>
-                    <header class="two"><p class="pn">Ai</p><span>Make sure you make it to my concert</span></header>
-                    <header class="ai"><span>14:57</span></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="tanjiro.jpeg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">Tanjiro</p><span>Have you seen Nezuko and Zenitsu?</span></header>
-                    <header class="ta"><span>14:30</span></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="nezuko.jpeg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">Nezuko</p><span>Help meeeeeeeeee!!!</span></header>
-                    <header class="ne"><span>14:24</span></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="zeni.jpeg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">Zenitsu</p><span>Nezuko-chaaaaaaannnnnnnn!!!</span></header>
-                    <header class="ze"><span>14:10</span></header>
-                </div>
-                <p class="lt">Your personal messages are <span class="ltc">end-to-end encrypted</span></p>
+          <button class="chat">Chats</button>
+          <div class="chatcon">
+            <div class="luf">
+              <header class="one">
+                <img src="./images/luffy.jpg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Luffy</p>
+                <span>I'm gonna become the pirate king</span>
+              </header>
+              <header class="lu"><span>16:10</span></header>
             </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/ussop.jpeg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Ussop</p>
+                <span>Have you seen Zoro?</span>
+              </header>
+              <header class="us"><span>16:00</span></header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/zoro.jpeg" alt="" class="dp" id="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Zoro</p>
+                <span>I think I'm lost...</span>
+              </header>
+              <header class="zo"><span>15:59</span></header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/nami.webp" alt="" class="dp" id="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Nami</p>
+                <span>Can I borrow some money??</span>
+              </header>
+              <header class="na"><span>15:50</span></header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/goku.jpeg" alt="" class="dp" id="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Goku</p>
+                <span>Wanna train?</span>
+              </header>
+              <header class="gok"><span>15:47</span></header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/gojo.jpeg" alt="" class="dp" id="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Gojo</p>
+                <span>Yo wai mo :)</span>
+              </header>
+              <header class="goj"><span>15:32</span></header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/sanji.jpeg" alt="" class="dp" id="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Sanji</p>
+                <span>Who ate all the food?</span>
+              </header>
+              <header class="sa"><span>15:10</span></header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/ai.jpeg" alt="" class="dp" id="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Ai</p>
+                <span>Make sure you make it to my concert</span>
+              </header>
+              <header class="ai"><span>14:57</span></header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/tanjiro.jpeg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Tanjiro</p>
+                <span>Have you seen Nezuko and Zenitsu?</span>
+              </header>
+              <header class="ta"><span>14:30</span></header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/nezuko.jpeg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Nezuko</p>
+                <span>Help meeeeeeeeee!!!</span>
+              </header>
+              <header class="ne"><span>14:24</span></header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/zeni.jpeg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Zenitsu</p>
+                <span>Nezuko-chaaaaaaannnnnnnn!!!</span>
+              </header>
+              <header class="ze"><span>14:10</span></header>
+            </div>
+            <p class="lt">
+              Your personal messages are
+              <span class="ltc">end-to-end encrypted</span>
+            </p>
+          </div>
         </div>
         <div class="st">
-            <button class="stat">Status</button>
-            <div class="statcon">
-                <div class="luf">
-                    <header class="one"><img src="mypfp.jpg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">My status</p><span>Tap to add status update</span></header>
-                </div>
-                <p class="cc">Recent updates</p>
-                <div class="luf">
-                    <header class="one"><img src="zoro.jpeg" alt="" class="dp" id="dps"></header>
-                    <header class="two"><p class="pn">Zoro</p><span>1 minutes ago</span></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="nami.webp" alt="" class="dp" id="dps"></header>
-                    <header class="two"><p class="pn">Nami</p><span>6 minutes ago</span></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="goku.jpeg" alt="" class="dp" id="dps"></header>
-                    <header class="two"><p class="pn">Goku</p><span>11 minutes ago</span></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="gojo.jpeg" alt="" class="dp" id="dps"></header>
-                    <header class="two"><p class="pn">Gojo</p><span>12 minutes ago</span></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="sanji.jpeg" alt="" class="dp" id="dps"></header>
-                    <header class="two"><p class="pn">Sanji</p><span>21 minutes ago</span></heade>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="ai.jpeg" alt="" class="dp" id="dps"></header>
-                    <header class="two"><p class="pn">Ai</p><span>25 minutes ago</span></header>
-                </div>
-                <p class="cc">Viewed updates</p>
-                <div class="luf">
-                    <header class="one"><img src="tanjiro.jpeg" alt="" class="dp" id="dpse"></header>
-                    <header class="two"><p class="pn">Tanjiro</p><span>5 miutes ago</span></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="nezuko.jpeg" alt="" class="dp" id="dpse"></header>
-                    <header class="two"><p class="pn">Nezuko</p><span>1 hour ago<span></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="zeni.jpeg" alt="" class="dp" id="dpse"></header>
-                    <header class="two"><p class="pn">Zenitsu</p><span>5 hours ago<span></header>
-                </div>
-                <p class="lt">Your status updates are <span class="ltc">end-to-end encrypted</span></p>
+          <button class="stat">Status</button>
+          <div class="statcon">
+            <div class="luf">
+              <header class="one">
+                <img src="./images/mypfp.jpg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">My status</p>
+                <span>Tap to add status update</span>
+              </header>
             </div>
+            <p class="cc">Recent updates</p>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/zoro.jpeg" alt="" class="dp" id="dps" />
+              </header>
+              <header class="two">
+                <p class="pn">Zoro</p>
+                <span>1 minutes ago</span>
+              </header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/nami.webp" alt="" class="dp" id="dps" />
+              </header>
+              <header class="two">
+                <p class="pn">Nami</p>
+                <span>6 minutes ago</span>
+              </header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/goku.jpeg" alt="" class="dp" id="dps" />
+              </header>
+              <header class="two">
+                <p class="pn">Goku</p>
+                <span>11 minutes ago</span>
+              </header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/gojo.jpeg" alt="" class="dp" id="dps" />
+              </header>
+              <header class="two">
+                <p class="pn">Gojo</p>
+                <span>12 minutes ago</span>
+              </header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/sanji.jpeg" alt="" class="dp" id="dps" />
+              </header>
+              <header class="two">
+                <p class="pn">Sanji</p>
+                <span>21 minutes ago</span>
+              </header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/ai.jpeg" alt="" class="dp" id="dps" />
+              </header>
+              <header class="two">
+                <p class="pn">Ai</p>
+                <span>25 minutes ago</span>
+              </header>
+            </div>
+            <p class="cc">Viewed updates</p>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/tanjiro.jpeg" alt="" class="dp" id="dpse" />
+              </header>
+              <header class="two">
+                <p class="pn">Tanjiro</p>
+                <span>5 miutes ago</span>
+              </header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/nezuko.jpeg" alt="" class="dp" id="dpse" />
+              </header>
+              <header class="two">
+                <p class="pn">Nezuko</p>
+                <span>1 hour ago</span>
+              </header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/zeni.jpeg" alt="" class="dp" id="dpse" />
+              </header>
+              <header class="two">
+                <p class="pn">Zenitsu</p>
+                <span>5 hours ago</span>
+              </header>
+            </div>
+            <p class="lt">
+              Your status updates are
+              <span class="ltc">end-to-end encrypted</span>
+            </p>
+          </div>
         </div>
         <div class="cal">
-            <button class="calls">Calls</button>
-            <div class="callcon">
-                <div class="luf">
-                    <header class="one"><img src="call-link.jpg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">Create call link</p>
-                        <div class="tw"><span>Share a link for your WhatsApp call</span></div>    
-                    </header>
+          <button class="calls">Calls</button>
+          <div class="callcon">
+            <div class="luf">
+              <header class="one">
+                <img src="./images/call-link.jpg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Create call link</p>
+                <div class="tw">
+                  <span>Share a link for your WhatsApp call</span>
                 </div>
-                <p class="cc">Recents</p>
-                <div class="luf">
-                    <header class="one"><img src="luffy.jpg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">Luffy</p>
-                        <div class="tw"><img src="green.jpg" alt="" class="sor"><span>7th July,18:55</span></div>    
-                    </header>
-                    <header class="thre"><img src="video call.jpg" alt="" class="callty"></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="zoro.jpeg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">Zoro</p>
-                        <div class="tw"><img src="green.jpg" alt="" class="sor"><span>2nd July,22:35</span></div>    
-                    </header>
-                    <header class="thre"><img src="video call.jpg" alt="" class="callty"></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="zoro.jpeg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">Zoro</p>
-                        <div class="tw"><img src="red.jpg" alt="" class="sor"><span>2nd July,22:32</span></div>    
-                    </header>
-                    <header class="thre"><img src="video call.jpg" alt="" class="callty"></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="tanjiro.jpeg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">Tanjiro</p>
-                        <div class="tw"><img src="green.jpg" alt="" class="sor"><span>1st July,00:00</span></div>    
-                    </header>
-                    <header class="thre"><img src="voice call.jpg" alt="" class="callty"></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="nezuko.jpeg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">Nezuko</p>
-                        <div class="tw"><img src="red.jpg" alt="" class="sor"><span>30th June,23:59</span></div>    
-                    </header>
-                    <header class="thr"><img src="voice call.jpg" alt="" class="callty"></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="nami.webp" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">Nami</p>
-                        <div class="tw"><img src="green.jpg" alt="" class="sor"><span>27th June,18:55</span></div>    
-                    </header>
-                    <header class="thre"><img src="video call.jpg" alt="" class="callty"></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="ussop.jpeg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">Ussop</p>
-                        <div class="tw"><img src="red.jpg" alt="" class="sor"><span>20th June,14:36</span></div>    
-                    </header>
-                    <header class="thre"><img src="voice call.jpg" alt="" class="callty"></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="sanji.jpeg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">Sanji</p>
-                        <div class="tw"><img src="green.jpg" alt="" class="sor"><span>1st June,16:18</span></div>    
-                    </header>
-                    <header class="thre"><img src="video call.jpg" alt="" class="callty"></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="gojo.jpeg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">Gojo</p>
-                        <div class="tw"><img src="green.jpg" alt="" class="sor"><span>1st June,12:55</span></div>    
-                    </header>
-                    <header class="thre"><img src="voice call.jpg" alt="" class="callty"></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="gojo.jpeg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">Gojo</p>
-                        <div class="tw"><img src="red.jpg" alt="" class="sor"><span>1st June,12:53</span></div>    
-                    </header>
-                    <header class="thre"><img src="video call.jpg" alt="" class="callty"></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="gojo.jpeg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">Gojo</p>
-                        <div class="tw"><img src="red.jpg" alt="" class="sor"><span>1st June,12:51</span></div>    
-                    </header>
-                    <header class="thre"><img src="video call.jpg" alt="" class="callty"></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="gojo.jpeg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">Gojo</p>
-                        <div class="tw"><img src="red.jpg" alt="" class="sor"><span>1st June,12:49</span></div>    
-                    </header>
-                    <header class="thre"><img src="video call.jpg" alt="" class="callty"></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="gojo.jpeg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">Gojo</p>
-                        <div class="tw"><img src="red.jpg" alt="" class="sor"><span>1st June,12:47</span></div>    
-                    </header>
-                    <header class="thre"><img src="video call.jpg" alt="" class="callty"></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="gojo.jpeg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">Gojo</p>
-                        <div class="tw"><img src="red.jpg" alt="" class="sor"><span>1st June,12:45</span></div>    
-                    </header>
-                    <header class="thre"><img src="video call.jpg" alt="" class="callty"></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="gojo.jpeg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">Gojo</p>
-                        <div class="tw"><img src="red.jpg" alt="" class="sor"><span>1st June,12:43</span></div>    
-                    </header>
-                    <header class="thre"><img src="video call.jpg" alt="" class="callty"></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="gojo.jpeg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">Gojo</p>
-                        <div class="tw"><img src="red.jpg" alt="" class="sor"><span>1st June,12:41</span></div>    
-                    </header>
-                    <header class="thre"><img src="video call.jpg" alt="" class="callty"></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="gojo.jpeg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">Gojo</p>
-                        <div class="tw"><img src="red.jpg" alt="" class="sor"><span>1st June,12:39</span></div>    
-                    </header>
-                    <header class="thre"><img src="video call.jpg" alt="" class="callty"></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="gojo.jpeg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">Gojo</p>
-                        <div class="tw"><img src="red.jpg" alt="" class="sor"><span>1st June,12:37</span></div>    
-                    </header>
-                    <header class="thre"><img src="video call.jpg" alt="" class="callty"></header>
-                </div>
-                <div class="luf">
-                    <header class="one"><img src="gojo.jpeg" alt="" class="dp"></header>
-                    <header class="two"><p class="pn">Gojo</p>
-                        <div class="tw"><img src="red.jpg" alt="" class="sor"><span>1st June,12:35</span></div>    
-                    </header>
-                    <header class="thre"><img src="video call.jpg" alt="" class="callty"></header>
-                </div>
-                <p class="lt">Your personal calls are <span class="ltc">end-to-end encrypted</span></p>
+              </header>
             </div>
+            <p class="cc">Recents</p>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/luffy.jpg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Luffy</p>
+                <div class="tw">
+                  <img src="./images/green.jpg" alt="" class="sor" /><span
+                    >7th July,18:55</span
+                  >
+                </div>
+              </header>
+              <header class="thre">
+                <img src="./images/video call.jpg" alt="" class="callty" />
+              </header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/zoro.jpeg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Zoro</p>
+                <div class="tw">
+                  <img src="./images/green.jpg" alt="" class="sor" /><span
+                    >2nd July,22:35</span
+                  >
+                </div>
+              </header>
+              <header class="thre">
+                <img src="./images/video call.jpg" alt="" class="callty" />
+              </header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/zoro.jpeg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Zoro</p>
+                <div class="tw">
+                  <img src="./images/red.jpg" alt="" class="sor" /><span
+                    >2nd July,22:32</span
+                  >
+                </div>
+              </header>
+              <header class="thre">
+                <img src="./images/video call.jpg" alt="" class="callty" />
+              </header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/tanjiro.jpeg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Tanjiro</p>
+                <div class="tw">
+                  <img src="./images/green.jpg" alt="" class="sor" /><span
+                    >1st July,00:00</span
+                  >
+                </div>
+              </header>
+              <header class="thre">
+                <img src="./images/voice call.jpg" alt="" class="callty" />
+              </header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/nezuko.jpeg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Nezuko</p>
+                <div class="tw">
+                  <img src="./images/red.jpg" alt="" class="sor" /><span
+                    >30th June,23:59</span
+                  >
+                </div>
+              </header>
+              <header class="thr">
+                <img src="./images/voice call.jpg" alt="" class="callty" />
+              </header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/nami.webp" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Nami</p>
+                <div class="tw">
+                  <img src="./images/green.jpg" alt="" class="sor" /><span
+                    >27th June,18:55</span
+                  >
+                </div>
+              </header>
+              <header class="thre">
+                <img src="./images/video call.jpg" alt="" class="callty" />
+              </header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/ussop.jpeg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Ussop</p>
+                <div class="tw">
+                  <img src="./images/red.jpg" alt="" class="sor" /><span
+                    >20th June,14:36</span
+                  >
+                </div>
+              </header>
+              <header class="thre">
+                <img src="./images/voice call.jpg" alt="" class="callty" />
+              </header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/sanji.jpeg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Sanji</p>
+                <div class="tw">
+                  <img src="./images/green.jpg" alt="" class="sor" /><span
+                    >1st June,16:18</span
+                  >
+                </div>
+              </header>
+              <header class="thre">
+                <img src="./images/video call.jpg" alt="" class="callty" />
+              </header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/gojo.jpeg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Gojo</p>
+                <div class="tw">
+                  <img src="./images/green.jpg" alt="" class="sor" /><span
+                    >1st June,12:55</span
+                  >
+                </div>
+              </header>
+              <header class="thre">
+                <img src="./images/voice call.jpg" alt="" class="callty" />
+              </header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/gojo.jpeg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Gojo</p>
+                <div class="tw">
+                  <img src="./images/red.jpg" alt="" class="sor" /><span
+                    >1st June,12:53</span
+                  >
+                </div>
+              </header>
+              <header class="thre">
+                <img src="./images/video call.jpg" alt="" class="callty" />
+              </header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/gojo.jpeg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Gojo</p>
+                <div class="tw">
+                  <img src="./images/red.jpg" alt="" class="sor" /><span
+                    >1st June,12:51</span
+                  >
+                </div>
+              </header>
+              <header class="thre">
+                <img src="./images/video call.jpg" alt="" class="callty" />
+              </header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/gojo.jpeg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Gojo</p>
+                <div class="tw">
+                  <img src="./images/red.jpg" alt="" class="sor" /><span
+                    >1st June,12:49</span
+                  >
+                </div>
+              </header>
+              <header class="thre">
+                <img src="./images/video call.jpg" alt="" class="callty" />
+              </header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/gojo.jpeg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Gojo</p>
+                <div class="tw">
+                  <img src="./images/red.jpg" alt="" class="sor" /><span
+                    >1st June,12:47</span
+                  >
+                </div>
+              </header>
+              <header class="thre">
+                <img src="./images/video call.jpg" alt="" class="callty" />
+              </header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/gojo.jpeg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Gojo</p>
+                <div class="tw">
+                  <img src="./images/red.jpg" alt="" class="sor" /><span
+                    >1st June,12:45</span
+                  >
+                </div>
+              </header>
+              <header class="thre">
+                <img src="./images/video call.jpg" alt="" class="callty" />
+              </header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/gojo.jpeg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Gojo</p>
+                <div class="tw">
+                  <img src="./images/red.jpg" alt="" class="sor" /><span
+                    >1st June,12:43</span
+                  >
+                </div>
+              </header>
+              <header class="thre">
+                <img src="./images/video call.jpg" alt="" class="callty" />
+              </header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/gojo.jpeg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Gojo</p>
+                <div class="tw">
+                  <img src="./images/red.jpg" alt="" class="sor" /><span
+                    >1st June,12:41</span
+                  >
+                </div>
+              </header>
+              <header class="thre">
+                <img src="./images/video call.jpg" alt="" class="callty" />
+              </header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/gojo.jpeg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Gojo</p>
+                <div class="tw">
+                  <img src="./images/red.jpg" alt="" class="sor" /><span
+                    >1st June,12:39</span
+                  >
+                </div>
+              </header>
+              <header class="thre">
+                <img src="./images/video call.jpg" alt="" class="callty" />
+              </header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/gojo.jpeg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Gojo</p>
+                <div class="tw">
+                  <img src="./images/red.jpg" alt="" class="sor" /><span
+                    >1st June,12:37</span
+                  >
+                </div>
+              </header>
+              <header class="thre">
+                <img src="./images/video call.jpg" alt="" class="callty" />
+              </header>
+            </div>
+            <div class="luf">
+              <header class="one">
+                <img src="./images/gojo.jpeg" alt="" class="dp" />
+              </header>
+              <header class="two">
+                <p class="pn">Gojo</p>
+                <div class="tw">
+                  <img src="./images/red.jpg" alt="" class="sor" /><span
+                    >1st June,12:35</span
+                  >
+                </div>
+              </header>
+              <header class="thre">
+                <img src="./images/video call.jpg" alt="" class="callty" />
+              </header>
+            </div>
+            <p class="lt">
+              Your personal calls are
+              <span class="ltc">end-to-end encrypted</span>
+            </p>
+          </div>
         </div>
-       </div>
-       <div class="load"><img src="load.png" alt="" class="screen"></div>
+      </div>
+      <div class="load"><img src="./images/load.png" alt="" class="screen" /></div>
     </section>
-</body>
+  </body>
 </html>

@@ -1,192 +1,212 @@
-body{
-    font-family: sans-serif;
-    background-color: darkblue;
+body {
+  font-family: sans-serif;
+  background-color: darkblue;
 }
-.frame{
-    background-color: gainsboro;
-    width: 440px;
-    height: 695.2px;
-    margin: auto;
-    border-radius: 30px;
-    padding: 10px 0px 0px 0px;
+.frame {
+  background-color: gainsboro;
+  width: 440px;
+  height: 695.2px;
+  margin: auto;
+  border-radius: 30px;
+  padding: 10px 0px 0px 0px;
 }
-.chat, .stat, .calls, .pp{
-    color: #8899A3;
-    border: none;
-    background-color: transparent;
-    text-align: center;
-    width: 100px;
+.chat,
+.stat,
+.calls,
+.pp {
+  color: #8899a3;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  width: 100px;
 }
-.chat, .stat, .calls, .pp{
-    position: relative;
+.chat,
+.stat,
+.calls,
+.pp {
+  position: relative;
 }
-.st:focus-within .statcon{
-    display: block;
+.st:focus-within .statcon {
+  display: block;
 }
-.chat:focus-within, .stat:focus-within, .calls:focus-within, .pp:focus-within{
-    color: #00AB83;
-    text-decoration: underline;
-    width: 100px;
+.chat:focus-within,
+.stat:focus-within,
+.calls:focus-within,
+.pp:focus-within {
+  color: #00ab83;
+  text-decoration: underline;
+  width: 100px;
 }
-.cam{
-    width: 20px;
-    height: 20px;
-    background-color: gray;
-    border-radius: 100%;
-    margin: auto;
-    margin-bottom: 10px;
+.cam {
+  width: 20px;
+  height: 20px;
+  background-color: gray;
+  border-radius: 100%;
+  margin: auto;
+  margin-bottom: 10px;
 }
-.icon, .top, .dpn{
-    margin: auto;
-    width: 412px;
-    background-color: #1F2C34;
-    padding: 8px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.icon,
+.top,
+.dpn {
+  margin: auto;
+  width: 412px;
+  background-color: #1f2c34;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.icon{
-    border-radius: 20px 20px 0px 0px;
-    height: 20px;
+.icon {
+  border-radius: 20px 20px 0px 0px;
+  height: 20px;
 }
-.ic{
-    width: 20px;
+.ic {
+  width: 20px;
 }
-.time{
-    color: white;
+.time {
+  color: white;
 }
-span{
-    color: #8899A3;
+span {
+  color: #8899a3;
 }
-.pn{
-    color: white;
-    font-size: 20px;
-    margin: 0px 0px 10px 0px;
+.pn {
+  color: white;
+  font-size: 20px;
+  margin: 0px 0px 10px 0px;
 }
-.csi, .comm{
-    height: 20px;
+.csi,
+.comm {
+  height: 20px;
 }
-.chatcon, .statcon, .callcon, .comcon{
-    position: absolute;
-    right: 417.5px;
-    top: 165px;
-    width: 428px;
-    height: 530px;
-    flex-wrap: wrap;
-    overflow-y: scroll;
-    border-radius: 0px 0px 20px 20px;
-    background-color: #121b22;
-    display: none;
+.chatcon,
+.statcon,
+.callcon,
+.comcon {
+  position: absolute;
+  right: 417.5px;
+  top: 165px;
+  width: 428px;
+  height: 530px;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  border-radius: 0px 0px 20px 20px;
+  background-color: #121b22;
+  display: none;
 }
-.chatcon::-webkit-scrollbar, .statcon::-webkit-scrollbar, .callcon::-webkit-scrollbar, .comcon::-webkit-scrollbar{
-    width: 10px;
-    height: 5px;        
-    background-color: transparent;
-    border-radius: 10px; 
+.chatcon::-webkit-scrollbar,
+.statcon::-webkit-scrollbar,
+.callcon::-webkit-scrollbar,
+.comcon::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+  background-color: transparent;
+  border-radius: 10px;
 }
 /* .statcon, .callcon, .comcon{
     display: none;
 } */
-.ch:focus-within .chatcon{
-    display: block;
+.ch:focus-within .chatcon {
+  display: block;
 }
-.stat:focus-within .statcon{
-    display: block;
+.stat:focus-within .statcon {
+  display: block;
 }
-.cal:focus-within .callcon{
-    display: block;
+.cal:focus-within .callcon {
+  display: block;
 }
-.com:focus-within .comcon{
-    display: block;
+.com:focus-within .comcon {
+  display: block;
 }
-.luf{
-    background-color: #121b22;
-    width: 410px;
-    height: 76px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding-top: 10px;
+.luf {
+  background-color: #121b22;
+  width: 410px;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
 }
-.thre{
-    margin-left: 180px;
+.thre {
+  margin-left: 180px;
 }
-.thr{
-    margin-left: 165px;
+.thr {
+  margin-left: 165px;
 }
-.lu{
-    margin-left: 55px;
+.lu {
+  margin-left: 55px;
 }
-.us{
-    margin-left: 137px;
+.us {
+  margin-left: 137px;
 }
-.zo{
-    margin-left: 173px;
+.zo {
+  margin-left: 173px;
 }
-.na{
-    margin-left: 80px;
+.na {
+  margin-left: 80px;
 }
-.gok{
-    margin-left: 190px;
+.gok {
+  margin-left: 190px;
 }
-.goj{
-    margin-left: 195px;
+.goj {
+  margin-left: 195px;
 }
-.sa{
-    margin-left: 133px;
+.sa {
+  margin-left: 133px;
 }
-.ai, .ta{
-    margin-left: 30px;
+.ai,
+.ta {
+  margin-left: 30px;
 }
-.ne{
-    margin-left: 140px;
+.ne {
+  margin-left: 140px;
 }
-.ze{
-    margin-left: 130px;
+.ze {
+  margin-left: 130px;
 }
-.tw{
-    display: flex;
-    align-items: center;
+.tw {
+  display: flex;
+  align-items: center;
 }
-.on{
-    display: block;
+.on {
+  display: block;
 }
-.dp{
-    width: 50px;
-    border-radius: 100%;
-    padding: 3px;
+.dp {
+  width: 50px;
+  border-radius: 100%;
+  padding: 3px;
 }
-#dp{
-    border: 3px solid #00AB83;
+#dp {
+  border: 3px solid #00ab83;
 }
-#dps{
-    border: 3px dashed #00AB83;
+#dps {
+  border: 3px dashed #00ab83;
 }
-#dpse{
-    border: 3px dashed gray;
+#dpse {
+  border: 3px dashed gray;
 }
-.lt{
-    font-size: 10px;
-    text-align: center;
-    color: #8899A3;
+.lt {
+  font-size: 10px;
+  text-align: center;
+  color: #8899a3;
 }
-.ltc{
-    color: #14A486;
+.ltc {
+  color: #14a486;
 }
-.cc{
-    color: #8899A3;
-    margin-left: 10px;
-    font-weight: 600;
+.cc {
+  color: #8899a3;
+  margin-left: 10px;
+  font-weight: 600;
 }
-.callty, .sor{
-    width: 20px;
+.callty,
+.sor {
+  width: 20px;
 }
-.load{
-    display: flex;
-    justify-content: center;
+.load {
+  display: flex;
+  justify-content: center;
 }
-.screen{
-    width: 428px;
-    height: 540px;
-    border-radius: 0px 0px 30px 30px;
+.screen {
+  width: 428px;
+  height: 540px;
+  border-radius: 0px 0px 30px 30px;
 }
