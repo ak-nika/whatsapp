@@ -26,6 +26,9 @@ body {
 .pp {
   position: relative;
 }
+button:hover{
+  cursor: pointer;
+}
 .st:focus-within .statcon {
   display: block;
 }
